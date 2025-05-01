@@ -44,7 +44,7 @@ The Hospital Management System is a web application developed using Django Rest 
 ```
 4. **Clone and Setup Your Project:**
 ```bash
-   # git clone https://github.com/hadithedetonator/django-rest-hms
+   # git clone https://github.com/V-Shashwath/HospiteX.git
    cd django-rest-hms
 ```
 5. **Create a Superuser**
