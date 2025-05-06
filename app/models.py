@@ -98,7 +98,7 @@ class Payment(models.Model):
     services = models.ManyToManyField(Service)
     discount = models.PositiveIntegerField()  # Discount percentage
     paid = models.DecimalField(max_digits=10, decimal_places=2)
-    payment_type = models.CharField(max_length=50, choices=[('Check', 'Check'), ('Card', 'Card'),('Cash', 'Cash')])
+    payment_type = models.CharField(max_length=50, choices=[('Cheque', 'Cheque'), ('Card', 'Card'),('Cash', 'Cash')])
     card_check_number = models.CharField(max_length=50, blank=True, null=True)  # Optional
 
     def __str__(self):
